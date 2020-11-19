@@ -36,6 +36,9 @@ function setOptions(globalOptions, options) {
       case 'userAgent':
         globalOptions.userAgent = options.userAgent;
         break;
+      case 'proxy':
+        globalOptions.proxy = options.proxy;
+        break;
       case 'autoMarkDelivery':
         globalOptions.autoMarkDelivery = options.autoMarkDelivery;
         break;
